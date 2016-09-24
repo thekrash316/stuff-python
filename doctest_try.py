@@ -1,5 +1,3 @@
-
-
 def next_prime(n):
     '''
     >>> next_prime(-2)
@@ -49,4 +47,9 @@ def is_prime(n):
             return False
 
     return True
-            
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+
